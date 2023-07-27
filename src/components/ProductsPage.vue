@@ -21,7 +21,6 @@ fetchData();
     />
     <TheLoader v-if="loading" />
     <BoringTable :items="products" v-else-if="products.length" @select="onSelect" />
-    <div v-else class="empty-state">No products found</div>
   </div>
 </template>
 
