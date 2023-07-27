@@ -1,4 +1,5 @@
 <script setup lang="ts">
+// @ts-ignore
 import GridLoader from "vue-spinner/src/GridLoader.vue";
 </script>
 
